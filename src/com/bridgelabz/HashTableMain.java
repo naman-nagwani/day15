@@ -9,6 +9,7 @@ public class HashTableMain {
                 + "avoidable situations";
         HashTable hashTable = new HashTable();
         hashTable.countWords(str);
+        hashTable.remove("avoidable");
     }
 
 }
